@@ -36,9 +36,11 @@ a {
   transition: .3s all ease; }
   a, a:hover {
     text-decoration: none !important; }
-
-.hero {
-  height: 100vh;
+.site-logo img{
+  height: 55px;
+}
+.hero img{
+  height: 50vh;
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -359,3 +361,31 @@ a {
       .sticky-wrapper .shrink {
         padding-top: 30px !important;
         padding-bottom: 30px !important; } }
+
+.heading{
+  text-align: center;
+  color: #000;
+  font-weight: 800;
+  margin: 25px 0;
+}
+.img-parents{
+  text-align: center;
+  position: relative;
+}
+.img-child-1{
+  z-index: 1;
+}
+.img-child-2{
+  position: absolute;
+  z-index: 10;
+  left: 70px;
+  top: 60px;
+}
+.img-child-1 img{
+  height: 300px;
+  width: 260px;
+}
+.img-child-2 img{
+  height: 95px;
+  width: 110px;
+}
