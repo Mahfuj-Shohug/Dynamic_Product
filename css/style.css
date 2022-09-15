@@ -362,6 +362,17 @@ a {
         padding-top: 30px !important;
         padding-bottom: 30px !important; } }
 
+.title{
+  text-align: center;
+  margin: 10px 0;
+}
+.title span{
+  display: inline-block;
+}
+.price{
+  text-align: center;
+  margin: 10px 0;
+}
 .heading{
   text-align: center;
   color: #000;
