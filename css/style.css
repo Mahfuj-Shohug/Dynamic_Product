@@ -389,14 +389,18 @@ a {
 .img-child-2{
   position: absolute;
   z-index: 10;
-  left: 70px;
+  left: 80px;
   top: 60px;
+  height: 100px;
+  width: 100px;
 }
 .img-child-1 img{
   height: 300px;
   width: 260px;
 }
 .img-child-2 img{
-  height: 95px;
-  width: 110px;
+  text-align: center;
+  vertical-align: middle !important;
+  height: 120px;
+  width: 100px;
 }
